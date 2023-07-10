@@ -1,11 +1,16 @@
 import React from "react"
-import Header from "./HeaderSection/Header"
-import Section from "./Sectionfolder/Section"
-import Footer from "./Footersection/Footer"
-import Componen1 from "./Component1"
-import Component2 from "./Component2"
-import Component3 from "./Component3"
-import Component4 from "./Component4"
+// import Header from "./HeaderSection/Header"
+// import Section from "./Sectionfolder/Section"
+// import Footer from "./Footersection/Footer"
+// import Componen1 from "./Component1"
+// import Component2 from "./Component2"
+// import Component3 from "./Component3"
+// import Component4 from "./Component4header"
+import Component4header from "./Component4header"
+import Component4header1 from "./Component4header1"
+import Component4header2 from "./Component4header2"
+
+
 
 // import Headerleft from "./HeaderSection/Headerleft"
 // import Headerright from "./HeaderSection/Headerright"
@@ -48,16 +53,40 @@ function App(){
        price="$29"
     
       /> */}
-      <div>
-      <Component4
+
+      {/* <Component4header
       image="https://media.discordapp.net/attachments/1103207862521561162/1126755241371635732/reusable-banners-card-1-bg-1.png?width=1378&height=370"
-      
       name="THE SEASONS LATEST"
-      
-      desc="Get the season all latest design in a flick of your hand"
-      button="show more"
+      description="Get the seasons all latest designs in a flick of your hand"
+      text="show more"
+
+      /> */}
+      <Component4header
+      image="https://media.discordapp.net/attachments/1103207862521561162/1126755241371635732/reusable-banners-card-1-bg-1.png?width=1378&height=370"
+      name="OUR NEW DESIGNS"
+      description="Get the seasons all latest designs in a flick of your hand"
+      text="show more"
+
       />
-      </div>
+       <Component4header1
+      image1="https://media.discordapp.net/attachments/1103207862521561162/1126755241749135380/reusable-banners-card-2-bg-1.png?width=1378&height=370"
+      name1="THE SEASON LATEST"
+      description1="Get the seasons all latest designs in a flick of your hand"
+      text1="show more"
+
+      />
+      <Component4header2
+      image2="https://media.discordapp.net/attachments/1103207862521561162/1126755242210492426/reusable-banners-card-3-bg-1.png?width=1378&height=370"
+      name2="INSIDERS"
+      description2="Get the seasons all latest designs in a flick of your hand"
+      text2="show more"
+
+      />
+      
+     
+      
+
+
 
 
    
