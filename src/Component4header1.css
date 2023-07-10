@@ -1,5 +1,11 @@
 .image1{
-    margin-top: 172px;
+    
+    margin-top: 122px;
+width: 100%;
+height: 14rem;
+border: 5px solid blue;
+border-width: 4px;
+border-radius: 12px;
 }
 .second{
     margin-top: -195px;
@@ -17,3 +23,7 @@ margin-left: 559px;
     border-color: blue;
     color: blue;
 }
+/* .border1{
+    border: 5px solid blue;
+border-radius: 20px;
+} */
