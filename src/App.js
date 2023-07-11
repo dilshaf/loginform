@@ -9,6 +9,9 @@ import React from "react"
 import Component4header from "./Component4header"
 import Component4header1 from "./Component4header1"
 import Component4header2 from "./Component4header2"
+import Component4header3 from "./Componentt4header3"
+import Component5 from "./Component5"
+import Component6 from "./Component6"
 
 
 
@@ -61,7 +64,7 @@ function App(){
       text="show more"
 
       /> */}
-      <Component4header
+      {/* <Component4header
       image="https://media.discordapp.net/attachments/1103207862521561162/1126755241371635732/reusable-banners-card-1-bg-1.png?width=1378&height=370"
       name="OUR NEW DESIGNS"
       description="Get the seasons all latest designs in a flick of your hand"
@@ -82,6 +85,92 @@ function App(){
       text2="show more"
 
       />
+       <Component4header3
+      image3="https://media.discordapp.net/attachments/1103207862521561162/1126755242210492426/reusable-banners-card-3-bg-1.png?width=1378&height=370"
+      name3="NESXT CARD"
+      description3="Get the seasons all latest designs in a flick of your hand"
+      text3="show more"
+
+      /> */}
+{/* 
+      <Component5
+      image="https://media.discordapp.net/attachments/1103207862521561162/1126755242210492426/reusable-banners-card-3-bg-1.png?width=1378&height=370"
+      name="CARD 1"
+      description="Get the seasons all latest designs in a flick of your hand"
+      text="component 1"
+      cssStyle="colorgreen"
+      v="colorgreen"
+      button="button"
+      parent="parent"
+      colorhead="colorheading1"
+      box="box"
+
+      />
+       <Component5
+      image="https://media.discordapp.net/attachments/1103207862521561162/1126755241749135380/reusable-banners-card-2-bg-1.png?width=1312&height=354"
+      name="CARD 2"
+      description="Get the seasons all latest designs in a flick of your hand"
+      text="Component2"
+      parent="parent1"
+      photo="photo"
+      colorhead="colorheading2"
+      color="color"
+      button="button"
+      
+     
+      />
+       <Component5
+      image="https://media.discordapp.net/attachments/1103207862521561162/1126755242210492426/reusable-banners-card-3-bg-1.png?width=1378&height=370"
+      name="CARD 3"
+      description="Get the seasons all latest designs in a flick of your hand"
+      text="Component3"
+      parent="parent"
+      colorheading="colorheading1"
+      color="color"
+      button="button"
+      colorhead="colorhead"
+      
+      /> */}
+     <Component6
+     image="https://media.discordapp.net/attachments/1103207862521561162/1126755241371635732/reusable-banners-card-1-bg-1.png?width=1378&height=370"
+     heading="SECTION1"
+     paragraph="This is section of paragraph."
+     button="DOWNLOAD!"
+     imagestyle="imgstyle"
+     contentstyle="contntstyle"
+     box="boxshadow"
+     buttonstyle="buttonstyle"
+     headingstyle="headingstyle"
+     />
+
+<Component6
+     image="https://media.discordapp.net/attachments/1103207862521561162/1126755241749135380/reusable-banners-card-2-bg-1.png?width=1312&height=354"
+     heading="SECTION2"
+     paragraph="This is section of paragraph."
+     button="DOWNLOAD!"
+     imagestyle="imgstyle"
+     contentstyle="contntstyle"
+     section2style="sectionstyle"
+     box="boxshadow"
+     buttonstyle="buttonstyle"
+     headingstyle="headingstyle1"
+     />
+     <Component6
+     image="https://media.discordapp.net/attachments/1103207862521561162/1126755242210492426/reusable-banners-card-3-bg-1.png?width=1312&height=352"
+     heading="SECTION3"
+     paragraph="This is section of paragraph."
+     button="DOWNLOAD!"
+     imagestyle="imgstyle"
+     contentstyle="contntstyle"
+     section3style="section1style"
+     box="boxshadow"
+     buttonstyle="buttonstyle"
+     headingstyle="headingstyle2"
+     />
+
+
+
+
       
      
       
