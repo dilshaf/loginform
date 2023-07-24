@@ -1,6 +1,7 @@
 import React from "react"
 
-import Componen1 from "./Component1"
+
+import Component2 from "./Component2"
 
 
 
@@ -11,11 +12,11 @@ function App(){
   
   
     
-    
    
-    <Componen1 title="1" name="dilsha" name1="rinsha" />
 
-    
+    <Component2 name="dilsha" age="20"/>
+
+   
 
 
 

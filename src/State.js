@@ -14,11 +14,13 @@ function State(){
             >Increment-</button> 
 
             
-            <button
+            <button 
             onClick={
                 function name(params){
                     console.log("button clicked")
+                    if(state>0){
                     setState(state-1)
+                    }
                 }
             }
             >Decrement -</button>
