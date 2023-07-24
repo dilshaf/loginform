@@ -2,7 +2,7 @@ import React from "react";
 const { useState } = React;
 
 
-const Home = () => {
+const Counter = () => {
   const [count, setCount] = useState(0);
   const onClick = () => {
 setCount(count + 1);
